@@ -4,7 +4,7 @@
 
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
-
+$base: "/191019";
 
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
@@ -18,7 +18,7 @@ $brown-invert:#232323;
 @font-face {
     font-family: CaslonCP;
     font-weight: lighter;
-    src: url("https://marbergq.github.io/191019/fonts/CaslonCP.otf")  format("opentype");
+    src: url($base+"/fonts/CaslonCP.otf")  format("opentype");
 
 }
 // Update the sans-serif font family
@@ -60,7 +60,7 @@ x{
     //     rgba(152, 118, 62, 0.5), 
     //     rgba(152, 118, 62, 0.5)
     //   ), 
-      url('https://marbergq.github.io/191019/img/paper-05.jpg');
+      url($base+'/img/paper-05.jpg');
       background-repeat:no-repeat;
 
       background-size:cover;    
