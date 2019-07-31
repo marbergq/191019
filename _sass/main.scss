@@ -22,7 +22,7 @@ $brown-invert:#232323;
     src: url($base+"/fonts/CaslonCP.otf")  format("opentype");
 
 }
-$tablet: 804px;
+$tablet: 820px;
 @font-face {
     font-family: "Courier New";
     src: url($base+"/fonts/cour.ttf")  format("truetype");
@@ -62,7 +62,7 @@ $title-line-height: 0.8;
 x{
     display: inline-block;
 }
-
+ 
 .hide-text{
     opacity: 0.0;
 }
