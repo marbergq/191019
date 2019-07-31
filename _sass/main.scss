@@ -28,11 +28,16 @@ $family-sans-serif: "CaslonCP", sans-serif;
 // Use the new pink as the primary color
 $primary: $brown;
 $primary-invert: $brown-invert;
-
+$link: $black;
 $size-1: 15rem;
 $title-weight: 100;
 $title-line-height: 0.8;
 // 4. Import the rest of Bulma
 
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+  }
+  
 
 @import "../node_modules/bulma/bulma";
