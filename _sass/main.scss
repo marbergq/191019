@@ -11,10 +11,10 @@
 
 // 2. Set your own initial variables
 // Update the blue shade, used for links
-$black:#000;
+$black:#232323;
 // Add pink and its invert
 $brown: #c7b495;
-$brown-invert: #000;
+$brown-invert:#232323;
 @font-face {
     font-family: CaslonCP;
     font-weight: lighter;
@@ -38,6 +38,32 @@ $title-line-height: 0.8;
     display: flex;
     align-items: center;
   }
-  
 
+x{
+    display: inline-block;
+}
+
+.right-x{
+    transform: translateX(-53px);
+}
+.left-x{
+    transform: translateX(67px);
+}
+
+.hide-text{
+    opacity: 0.0;
+}
+
+.has-bg-img { 
+    background:
+    //     linear-gradient(
+    //     rgba(152, 118, 62, 0.5), 
+    //     rgba(152, 118, 62, 0.5)
+    //   ), 
+      url('/img/paper-05.jpg');
+      background-repeat:no-repeat;
+
+      background-size:cover;    
+      box-shadow: inset 0 0 60px 60px rgba(0, 0, 0, 0.164);
+    }
 @import "../node_modules/bulma/bulma";
