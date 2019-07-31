@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$black:#000;
+// Add pink and its invert
+$brown: #c7b495;
+$brown-invert: #000;
+@font-face {
+    font-family: CaslonCP;
+    font-weight: lighter;
+    src: url("/fonts/CaslonCP.otf")  format("opentype");
+
+}
+// Update the sans-serif font family
+$family-sans-serif: "CaslonCP", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $brown;
+$primary-invert: $brown-invert;
+
+$size-1: 15rem;
+$title-weight: 100;
+$title-line-height: 0.8;
+// 4. Import the rest of Bulma
+
+
+@import "../node_modules/bulma/bulma";
