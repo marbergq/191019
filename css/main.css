@@ -1,7 +1,7 @@
 @font-face {
   font-family: CaslonCP;
   font-weight: lighter;
-  src: url("/191019/fonts/CaslonCP.otf") format("opentype"); }
+  src: url("/fonts/CaslonCP.otf") format("opentype"); }
 
 .is-vertical-center {
   display: flex;
@@ -10,20 +10,14 @@
 x {
   display: inline-block; }
 
-.right-x {
-  transform: translateX(-53px); }
-
-.left-x {
-  transform: translateX(67px); }
-
 .hide-text {
   opacity: 0.0; }
 
 .has-bg-img {
-  background: url("/191019/img/paper-05.jpg");
+  background: url("/img/paper-05.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: inset 0 0 60px 60px rgba(0, 0, 0, 0.164); }
+  box-shadow: inset 0 0 60px 60px rgba(0, 0, 0, 0.12); }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
@@ -420,7 +414,7 @@ table th {
   font-size: 15rem !important; }
 
 .is-size-2 {
-  font-size: 2.5rem !important; }
+  font-size: 8rem !important; }
 
 .is-size-3 {
   font-size: 2rem !important; }
@@ -441,7 +435,7 @@ table th {
   .is-size-1-mobile {
     font-size: 15rem !important; }
   .is-size-2-mobile {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-mobile {
     font-size: 2rem !important; }
   .is-size-4-mobile {
@@ -457,7 +451,7 @@ table th {
   .is-size-1-tablet {
     font-size: 15rem !important; }
   .is-size-2-tablet {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-tablet {
     font-size: 2rem !important; }
   .is-size-4-tablet {
@@ -473,7 +467,7 @@ table th {
   .is-size-1-touch {
     font-size: 15rem !important; }
   .is-size-2-touch {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-touch {
     font-size: 2rem !important; }
   .is-size-4-touch {
@@ -489,7 +483,7 @@ table th {
   .is-size-1-desktop {
     font-size: 15rem !important; }
   .is-size-2-desktop {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-desktop {
     font-size: 2rem !important; }
   .is-size-4-desktop {
@@ -505,7 +499,7 @@ table th {
   .is-size-1-widescreen {
     font-size: 15rem !important; }
   .is-size-2-widescreen {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-widescreen {
     font-size: 2rem !important; }
   .is-size-4-widescreen {
@@ -521,7 +515,7 @@ table th {
   .is-size-1-fullhd {
     font-size: 15rem !important; }
   .is-size-2-fullhd {
-    font-size: 2.5rem !important; }
+    font-size: 8rem !important; }
   .is-size-3-fullhd {
     font-size: 2rem !important; }
   .is-size-4-fullhd {
@@ -2744,7 +2738,7 @@ a.tag:hover {
   .title.is-1 {
     font-size: 15rem; }
   .title.is-2 {
-    font-size: 2.5rem; }
+    font-size: 8rem; }
   .title.is-3 {
     font-size: 2rem; }
   .title.is-4 {
@@ -2769,7 +2763,7 @@ a.tag:hover {
   .subtitle.is-1 {
     font-size: 15rem; }
   .subtitle.is-2 {
-    font-size: 2.5rem; }
+    font-size: 8rem; }
   .subtitle.is-3 {
     font-size: 2rem; }
   .subtitle.is-4 {
@@ -6982,3 +6976,15 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.right-x {
+  transform: translateX(-53px); }
+  @media screen and (max-width: 768px) {
+    .right-x {
+      transform: translateX(-29px); } }
+
+.left-x {
+  transform: translateX(67px); }
+  @media screen and (max-width: 768px) {
+    .left-x {
+      transform: translateX(34px); } }

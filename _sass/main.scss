@@ -4,7 +4,8 @@
 
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
-$base: "/191019";
+// $base: "/191019";
+$base: "";
 
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
@@ -30,6 +31,7 @@ $primary: $brown;
 $primary-invert: $brown-invert;
 $link: $black;
 $size-1: 15rem;
+$size-2: 8rem;
 $title-weight: 100;
 $title-line-height: 0.8;
 // 4. Import the rest of Bulma
@@ -41,13 +43,6 @@ $title-line-height: 0.8;
 
 x{
     display: inline-block;
-}
-
-.right-x{
-    transform: translateX(-53px);
-}
-.left-x{
-    transform: translateX(67px);
 }
 
 .hide-text{
@@ -64,6 +59,23 @@ x{
       background-repeat:no-repeat;
 
       background-size:cover;    
-      box-shadow: inset 0 0 60px 60px rgba(0, 0, 0, 0.164);
+      box-shadow: inset 0 0 60px 60px rgba(0, 0, 0, 0.12);
     }
 @import "../node_modules/bulma/bulma";
+
+.right-x{
+    transform: translateX(-53px);
+
+    @include mobile{
+        transform: translateX(-29px);
+
+    }
+}
+.left-x{
+    transform: translateX(67px);
+
+    @include mobile{
+        transform: translateX(34px);
+        
+    }
+}
